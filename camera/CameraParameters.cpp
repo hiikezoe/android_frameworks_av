@@ -288,7 +288,9 @@ const char CameraParameters::FOCUS_MODE_CONTINUOUS_VIDEO[] = "continuous-video";
 const char CameraParameters::FOCUS_MODE_CONTINUOUS_PICTURE[] = "continuous-picture";
 #if defined(QCOM_HARDWARE)
 const char CameraParameters::FOCUS_MODE_CONTINUOUS_CAMERA[] = "continuous-camera";
+const char CameraParameters::FOCUS_MODE_FACE[] = "face-priority";
 const char CameraParameters::FOCUS_MODE_NORMAL[] = "normal";
+const char CameraParameters::SCENE_MODE_TEXT[] = "scene-mode-text";
 
 
 const char CameraParameters::KEY_SKIN_TONE_ENHANCEMENT[] = "skinToneEnhancement";

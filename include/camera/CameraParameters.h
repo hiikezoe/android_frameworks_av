@@ -746,6 +746,7 @@ public:
     static const char SCENE_MODE_BACKLIGHT[];
     static const char SCENE_MODE_FLOWERS[];
     static const char SCENE_MODE_AR[];
+    static const char SCENE_MODE_TEXT[];
 #ifdef QCOM_SONY_HARDWARE
     static const char EX_SCENE_MODE_DOCUMENT[];
 #endif
@@ -833,6 +834,7 @@ public:
 
 #ifdef QCOM_HARDWARE
     static const char FOCUS_MODE_CONTINUOUS_CAMERA[];
+    static const char FOCUS_MODE_FACE[];
 
     // Values for Continuous AF
     static const char CAF_OFF[] ;
